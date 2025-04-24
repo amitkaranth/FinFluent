@@ -44,7 +44,7 @@ FinFluent/
 ├── encryption_utils.py     # File encryption logic
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
