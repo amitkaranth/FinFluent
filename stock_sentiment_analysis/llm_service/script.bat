@@ -1,1 +1,0 @@
-uvicorn ollama:app --reload --port 8001
