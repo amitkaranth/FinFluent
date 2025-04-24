@@ -14,6 +14,7 @@
 
 - **Realistic Synthetic Dataset**
   - Simulates 5 years of monthly transactions with seasonal trends and outlier injection.
+  - Includes seasonlity, real-world factors such as - Inflation, Salary hike, Relocation among others.
 
 - **Dual Interfaces**
   - 💻 **CLI**: Lightweight chat-based terminal interface.
@@ -53,7 +54,7 @@ FinFluent/
 - **Python**, **pandas**, **scikit-learn**, **Streamlit**
 - **APIs**: Twelve Data, AlphaVantage
 - **ML Models**: SARIMA, Isolation Forest
-- **LLM**: LLaMA 3.1 (via Hugging Face or Ollama)
+- **LLM**: LLaMA 3.1 (using Ollama)
 - **Security**: Fernet encryption from `cryptography`
 
 ---
@@ -71,6 +72,7 @@ FinFluent/
 ## 🔐 Privacy First
 
 - All uploads encrypted with **Fernet**; decrypted only at runtime.
+- Each sub-agent unlocks data -> uses data for ML models -> deletes the files -> stores aggeregate information from ML models.
 - LLMs **never access raw data** – only aggregate summaries.
 - **User files are deleted** post-processing to ensure zero data retention.
 
@@ -78,11 +80,10 @@ FinFluent/
 
 ## 👥 Contributors
 
-- **Amit Karanth Gurpur** – Data Gen, Forecasting, Portfolio, Security  
-- **Akshata Kumble** – Prompt Engineering, Evaluation, Budgeting  
-- **Suraj Patel Muthe Gowda** – Anomaly Detection, Encryption  
-- **Vidya Kalyandurg** – End-to-End Integration, Streamlit UI, Stocks  
-
+- **Amit Karanth Gurpur** – Data Generation, Forecasting, Anomaly Detection, Portfolio Agent, Security & Encryption
+- **Vidya Kalyandurg** – End-to-End Integration, Streamlit UI, Stocks (Portfolio & Stock Agent)
+- **Suraj Patel Muthe Gowda** – Anomaly Detection, Encryption, Prompt Engineering
+- **Akshata Kumble** – Prompt Engineering, Evaluation, Budgeting
 ---
 
 ## 📄 Citation & Links
