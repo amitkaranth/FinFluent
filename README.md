@@ -80,10 +80,10 @@ FinFluent/
 
 ## 👥 Contributors
 
-- **Amit Karanth Gurpur** – Data Generation, Forecasting, Anomaly Detection, Portfolio Agent, Security & Encryption
-- **Vidya Kalyandurg** – End-to-End Integration, Streamlit UI, Stocks (Portfolio & Stock Agent)
-- **Suraj Patel Muthe Gowda** – Anomaly Detection, Encryption, Prompt Engineering
-- **Akshata Kumble** – Prompt Engineering, Evaluation, Budgeting
+- **Amit Karanth Gurpur** 
+- **Vidya Kalyandurg** 
+- **Suraj Patel Muthe Gowda** 
+- **Akshata Kumble** 
 ---
 
 ## 📄 Citation & Links
